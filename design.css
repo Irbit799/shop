@@ -1,0 +1,53 @@
+/* 
+inline 1
+ID 1
+Class 1
+tag  1
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+html,
+body {
+    font-family: 'Roboto', Verdana, sans-serif;
+}
+a {
+    padding: 4px;
+    font-size: 40px;
+    color: #00008B;
+}
+p {
+    padding: 4px;
+    font-size: 40px;
+    color: #00008B;
+}
+h1 {
+    border: 1px solid #d8d8d8;
+    border-radius: 2px;
+    padding: 0px;
+    margin: 10px;
+    width: 300px;
+    font-size: 31px;
+}
+button {
+    border-radius: 2px;
+    padding: 4px;
+    font-size: 40px;
+    color: #00008B;
+}
+img {
+    width: 600px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px
+}
+
+
