@@ -1,0 +1,75 @@
+/* 
+inline 1
+ID 1
+Class 1
+tag  1
+
+padding: padding-top padding-right padding-bottom padding-left;
+margin: margin-top margin-right margin-bottom margin-left;
+padding: Y X;
+margin: Y X;
+padding: PT=10px PX=30px PB50px;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #B0C4DE;
+}
+.header {
+  background-color: #5F9EA0;
+  padding: 10px;
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;
+  color: #B0C4DE;
+  height: 44px;
+  border-radius: 35px;
+}
+.wrapper {
+  font-family: 'Quicksand', sans-serif;
+}
+.a {
+  color: white;
+
+}
+.wrapper {
+    display: grid;
+  }
+.wrapper {
+    color: #B0C4DE;
+    border-radius: 35px;
+    padding: 10px;
+    background-color: #4169E1;
+    font-family: 'Quicksand', sans-serif;
+    grid-template-columns: 3fr 3fr 1fr;
+    grid-template-row: 1fr;
+    grid-gap: 2vw;
+    border: 2px solid #5F9EA0;
+    font-weight: 900; 
+    grid-auto-rows: 600px;
+  } 
+.card {
+  font-family: 'Quicksand', sans-serif;
+}
+.img {
+  background-size: 100px 400px;
+}
+.footer {
+  background-color: #5F9EA0;
+  padding: 10px;
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;
+  color: #191970;
+  height: 44px;
+  border-radius: 35px;
+  font-weight: 900;
+}
+* {
+    box-sizing: border-box;
+}
